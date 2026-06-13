@@ -120,7 +120,6 @@ if upload_files:
             st.write(st.session_state.store)
             st.write("Assistant:", response['answer'])
             st.write("Chat History:", session_history.messages)
-else :
-    st.error("Some Error occure")
+
 
 
